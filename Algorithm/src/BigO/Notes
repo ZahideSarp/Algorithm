@@ -1,0 +1,20 @@
+
+    * ---> Time Complexity  NEDIR ??
+
+    Time complexity bir algoritmanın çalışması için gerekli olan süredir.
+        Ancak buradaki süre, saniyeleri hesaplayarak değil, kaç tane işlem
+        gerçekleştirdiğine göre hesaplanmaktadır. Uygulama tarafından gerçekleştirilen
+        işlem sayısı(Cpu'nu attıgı sykl sayısına gore ), veri setinin büyüklüğüne ve o veri setindeki elemanların
+        sırasına göre belirlenir.
+        iterasyon=tekrar sayısı
+
+    * --->  Big O Notation ( O(n) )     NEDIR ??
+
+     Big-O notation, bir algoritmanın performansını veya time complexity’sini
+        hesaplamak için kullanılır.
+
+
+
+
+
+

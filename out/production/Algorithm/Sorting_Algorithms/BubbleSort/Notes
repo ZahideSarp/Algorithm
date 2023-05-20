@@ -1,0 +1,14 @@
+
+
+ * TIME COMPLEXITY -->  O(n^2) -- selectionSort ve insertionSort dan daha yavasdir
+
+ * Durmadan aynı işlemi yaptırıyor
+ * Dongunun durabilmesi için bastan sonra geldiginde swap işlemi hiç yapmamıs olması lazım.
+ * artı yonu iki iki eleman alıyor
+ * 100 eleman varsa sorun degil ama 10.000 eleman varsa bu problem
+ * Kucuk dizilerde kullanmak makuldur.
+
+
+ * MEMORY USAGE --> 1 variable ( temp den dolayi )
+ * Mermory usege acısından bakacak olursak en iyilerin bir tanesi ama hız yonunden bakarsak belki de en yavasıdır.
+ * Eger dizi kucuk ise insertionSort'la yarısır.

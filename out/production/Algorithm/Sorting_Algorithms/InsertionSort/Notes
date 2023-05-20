@@ -1,0 +1,17 @@
+
+
+ { 2, 4, 5, 3, 1, 6 } -->  { 2, 4, 5, 5 ,1 ,6 } --> { 2, 4, 4, 5, 1, 6} ---> { 2, 3, 4, 5, 1, 6}
+
+
+ * TIME COMPLEXITY --> O(n^2)  ( en iyi durumda O(n) , en kotu durumda O(n^2) )
+
+ * Sıralama da sadece 1 2 eleman degisecekse en iyi durum oluyor
+ * Sıralama da cok fazla elemanın yeri degisecekse en kotu durum oluyor.
+ * En iyi durum gelme ihtimalinden dolayı Selectionsort'a gore daha hızlıdır.
+ * Zaten sıralıysa cok az sayıda degisiklik yapılacagı için.
+ * Çok karmasık buyuk dizlerde veya kucuk rakamlar sonlarda olan dizinlerde ne selectionSort ne de InsertionSort tavsiye edilmiyor.
+
+  * MEMORY USAGE --> 1 variable
+
+* SelectionSort da bir elemanı alıyor ve diger tum degerlerle karsılastırıyor ama InsertionSort'ta bir elemanı temp'e alıyor
+ve solda kalan degerleri uzerine yazarak(kopyalayarak) devam ediyor.

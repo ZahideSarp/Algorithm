@@ -1,0 +1,13 @@
+
+Mantik : verilen dizinin herhangi bir yerinden bir pivot secilir
+    (neresinde olacagı onemli degil 3. eleman sonunda ki eleman gibi), pivottan buyuk olan elemanlari sagina
+    kucuk olanlari soluna geciriyoruz. Bu islemi yaptiktan sonra  pivot elemanin solundaki ve sagindaki
+    dizilerden ayri ayri pivot elemanlar secilir ve o dizilerde kendi icerisinde ayni islem yapilir
+
+
+* TIME COMPLEXITY ---> en kotu O(n^2)  ,  ortalamada O(nlogn)->elemean sayısının logaritması kadar suresi artıyor.
+    bu sayede performans olarak en hizlilarindan biridir diyebiliriz
+    * Eger veri seti (dizisi) az sa hepsi hızlı calısıyor ama eleman sayısı 1 milyon o zaman quick hepsinden hızlı calısıyor.
+    * Memory acısından en kotusu hız acısından en hızlı
+
+* MEMORY USAGE ---> en kotu durumda O(n)
